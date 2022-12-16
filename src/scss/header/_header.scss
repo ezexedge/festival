@@ -1,0 +1,25 @@
+@use '../custom' as *;
+
+@font-face {
+    font-family:rocGrotesk ;
+    src: url(/Fonts/RocGrotesk-Bold.otf);
+    font-weight: bold;
+  }
+
+header{
+    padding: 0px;
+    height: 100vh;
+    font-family: rocGrotesk;
+    background-image: url("/img/header.png");
+    background-repeat: no-repeat;
+    nav {
+        .nav-link{
+            color: $white!important;
+            font-size: 20px!important;
+
+        }
+        img{
+            width: 200px;
+        }
+    }
+}
