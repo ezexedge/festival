@@ -10775,11 +10775,11 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 header {
-  padding: 0px;
   height: 100vh;
   font-family: rocGrotesk;
   background-image: url("/img/header.png");
   background-repeat: no-repeat;
+  background-position: center top;
 }
 header nav .nav-link {
   color: #FFFFFF !important;
