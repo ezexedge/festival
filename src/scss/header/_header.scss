@@ -5,22 +5,43 @@
     src: url(/Fonts/RocGrotesk-Bold.otf);
     font-weight: bold;
   }
-
 header{
+    position: relative;
     
-    height: 100vh;
-    font-family: rocGrotesk;
-    background-image: url("/img/header.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    nav {
-        .nav-link{
-            color: $white!important;
-            font-size: 20px!important;
+    .banner{
+        
+        height: 100vh;
+        font-family: rocGrotesk;
+        background-image: url("/img/header.png");
+        background-repeat:no-repeat;
+        background-size:100%;
+        margin-right: 40px;
+        margin-left: 40px;
 
+        nav {
+            .nav-link{
+                color: $white!important;
+                font-size: 20px!important;
+
+            }
+            img{
+                width: 134px;
+            }
         }
-        img{
-            width: 200px;
+       
+    }
+    .text-content{
+        color: $white;
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        height: 100vh;
+        background-image: url("/img/texto.svg");
+        background-repeat:no-repeat;
+        background-size:100%;
+        h1{
+            font-size: 130px;
+
         }
     }
 }

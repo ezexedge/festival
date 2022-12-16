@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+@font-face {
+    font-family:rocGrotesk ;
+    src: url(/Fonts/RocGrotesk-Regular.otf);
+    font-weight: regular;
+  }
+.section-1{
+    color: $white;
+    margin-left: 13rem;
+    .content-text-head{
+        width: 35%;
+        font-size: 20px;
+        font-family: rocGrotesk;
+        font-weight: regular;
+    }
+    
+}

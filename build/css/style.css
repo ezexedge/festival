@@ -10775,22 +10775,56 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 header {
+  position: relative;
+}
+header .banner {
   height: 100vh;
   font-family: rocGrotesk;
   background-image: url("/img/header.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-size: 100%;
+  margin-right: 40px;
+  margin-left: 40px;
 }
-header nav .nav-link {
+header .banner nav .nav-link {
   color: #FFFFFF !important;
   font-size: 20px !important;
 }
-header nav img {
-  width: 200px;
+header .banner nav img {
+  width: 134px;
+}
+header .text-content {
+  color: #FFFFFF;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/texto.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header .text-content h1 {
+  font-size: 130px;
 }
 
 body {
   background-color: #1D1D1B;
+}
+
+@font-face {
+  font-family: rocGrotesk;
+  src: url(/Fonts/RocGrotesk-Regular.otf);
+  font-weight: regular;
+}
+.section-1 {
+  color: #FFFFFF;
+  margin-left: 13rem;
+}
+.section-1 .content-text-head {
+  width: 35%;
+  font-size: 20px;
+  font-family: rocGrotesk;
+  font-weight: regular;
 }
 
 /*# sourceMappingURL=style.css.map */
