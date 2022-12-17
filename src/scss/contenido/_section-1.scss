@@ -7,13 +7,35 @@
   }
 .section-1{
     color: $white;
-    margin-left: 13rem;
-    margin-top: 6rem;
+    margin-top: 7rem;
+    .text-section-1{
+        width: 80%;
+        height: 507px;
+        position: absolute;
+        transform: translate(2%, -60%);
+
+    }
     .content-text-head{
-        width: 35%;
         font-size: 20px;
         font-family: rocGrotesk;
         font-weight: regular;
+        margin-bottom: 7rem;
+        padding-left: 150px;
+        width: 50%;
+    }
+    .content-main{
+        position: relative;
+        .box{
+            width: 428px;
+            height: 409px;
+            position: absolute;
+            background-image: url("/img/box.svg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            top: 78px;
+            transform: translate(-150%, 2%);
+
+        }
     }
     
 }
