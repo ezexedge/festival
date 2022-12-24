@@ -10825,6 +10825,11 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  font-family: rocGrotesk;
+  font-weight: regular;
+}
+
 .section-1 {
   color: #FFFFFF;
   margin-top: 7rem;
