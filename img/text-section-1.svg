@@ -48,8 +48,7 @@
 
       .cls-12 {
         fill: #fff;
-        font-family: 'Roc Grotesk';
-          font-weight: regular;
+        font-family: RocGrotesk-Regular, 'Roc Grotesk';
         font-size: 152.17px;
       }
 
