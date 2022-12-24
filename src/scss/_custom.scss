@@ -4,5 +4,18 @@ $white: #FFFFFF;
 $navbar-padding-x: 4rem;
 $navbar-padding-y: 3.9rem;
 
+$card-bg: $black;
+
+@font-face {
+    font-family:rocGrotesk ;
+    src: url(/Fonts/RocGrotesk-Bold.otf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family:rocGrotesk ;
+    src: url(/Fonts/RocGrotesk-Regular.otf);
+    font-weight: regular;
+  }
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

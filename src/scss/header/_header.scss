@@ -1,26 +1,40 @@
 @use '../custom' as *;
 
-@font-face {
-    font-family:rocGrotesk ;
-    src: url(/Fonts/RocGrotesk-Bold.otf);
-    font-weight: bold;
-  }
 
 header{
-    
-    height: 100vh;
-    font-family: rocGrotesk;
-    background-image: url("/img/header.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    nav {
-        .nav-link{
-            color: $white!important;
-            font-size: 20px!important;
+    position: relative;
+    .banner{
+        height: 100vh;
+        font-family: rocGrotesk;
+        background-image: url("/img/header.png");
+        background-repeat:no-repeat;
+        background-size:100%;
+        margin-right: 46px;
+        margin-left: 46px;
 
+        nav {
+            font-family:rocGrotesk ;
+            font-weight: bold;
+
+            .nav-link{
+                color: $white!important;
+                font-size: 20px!important;
+
+            }
+            img{
+                width: 134px;
+            }
         }
-        img{
-            width: 200px;
+       
+    }
+    .text-content{
+        color: $white;
+        position: absolute;
+        transform: translate(0, 50%);
+
+        h1{
+            font-size: 130px;
+
         }
     }
 }

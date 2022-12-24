@@ -1,4 +1,14 @@
 @charset "UTF-8";
+@font-face {
+  font-family: rocGrotesk;
+  src: url(/Fonts/RocGrotesk-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: rocGrotesk;
+  src: url(/Fonts/RocGrotesk-Regular.otf);
+  font-weight: regular;
+}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -4121,7 +4131,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #FFFFFF;
+  --bs-card-bg: #1D1D1B;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -10769,28 +10779,265 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@font-face {
-  font-family: rocGrotesk;
-  src: url(/Fonts/RocGrotesk-Bold.otf);
-  font-weight: bold;
-}
 header {
+  position: relative;
+}
+header .banner {
   height: 100vh;
   font-family: rocGrotesk;
   background-image: url("/img/header.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-size: 100%;
+  margin-right: 46px;
+  margin-left: 46px;
 }
-header nav .nav-link {
+header .banner nav {
+  font-family: rocGrotesk;
+  font-weight: bold;
+}
+header .banner nav .nav-link {
   color: #FFFFFF !important;
   font-size: 20px !important;
 }
-header nav img {
-  width: 200px;
+header .banner nav img {
+  width: 134px;
+}
+header .text-content {
+  color: #FFFFFF;
+  position: absolute;
+  transform: translate(0, 50%);
+}
+header .text-content h1 {
+  font-size: 130px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
   background-color: #1D1D1B;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section-1 {
+  color: #FFFFFF;
+  margin-top: 7rem;
+  margin-bottom: 300px;
+  position: relative;
+}
+.section-1 .text-section-1 {
+  width: 80%;
+  height: 507px;
+  position: absolute;
+  bottom: -200px;
+}
+.section-1 .content-text-head {
+  font-size: 20px;
+  font-family: rocGrotesk;
+  font-weight: regular;
+  margin-bottom: 7rem;
+  padding-left: 150px;
+  width: 50%;
+}
+.section-1 .content-main {
+  position: relative;
+}
+.section-1 .content-main .box {
+  width: 428px;
+  height: 409px;
+  position: absolute;
+  background: linear-gradient(94deg, rgb(251, 203, 154) 0%, rgb(239, 127, 60) 45%, rgb(229, 0, 126) 87%);
+  font-size: 1.2em;
+  top: 78px;
+  transform: translate(-150%, 2%);
+  display: flex;
+  justify-content: start;
+}
+.section-1 .content-main .box p {
+  font-size: 20px;
+  margin-top: 43px;
+  margin-left: 43px;
+  line-height: 20px;
+  font-family: rocGrotesk;
+  font-weight: medium;
+}
+
+.section-2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-left: 47px;
+  padding-right: 47px;
+  margin-bottom: 350px;
+}
+.section-2 .img1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.section-2 .img2 {
+  width: 857px;
+  height: 629px;
+  right: 0;
+  bottom: -330px;
+  position: absolute;
+}
+
+.section-3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-left: 47px;
+  padding-right: 47px;
+  margin-bottom: 400px;
+}
+.section-3 .img1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.section-3 .img2 {
+  width: 1190px;
+  height: 398px;
+  right: 0;
+  left: 0;
+  bottom: -230px;
+  position: absolute;
+}
+
+.section-4 {
+  position: relative;
+  margin-bottom: 300px;
+}
+.section-4 .text-head {
+  color: white;
+}
+.section-4 .text-head .title {
+  font-family: rocGrotesk;
+  font-weight: regular;
+  font-size: 43px;
+  line-height: 40px;
+}
+.section-4 .text-head .subtitle {
+  font-family: rocGrotesk;
+  font-weight: medium;
+  font-size: 22px;
+}
+.section-4 .text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -50%);
+  font-size: 20px;
+  font-family: rocGrotesk;
+  font-weight: regular;
+}
+.section-4 .circulo {
+  background: linear-gradient(#1D1D1B, #1D1D1B) padding-box, linear-gradient(94deg, rgb(251, 203, 154) 0%, rgb(239, 127, 60) 45%, rgb(229, 0, 126) 87%) border-box;
+  width: 200px;
+  height: 144px;
+  border-radius: 72px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.section-4 .circulo .circulo-hijo {
+  background: linear-gradient(#1D1D1B, #1D1D1B) padding-box, linear-gradient(264deg, rgb(251, 203, 154) 0%, rgb(239, 127, 60) 45%, rgb(229, 0, 126) 87%) border-box;
+  width: 85px;
+  height: 85px;
+  border-radius: 72px;
+  border: 1px solid transparent;
+  margin-left: 19px;
+}
+
+.section-5 .email {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.section-5 .email .circulo {
+  display: flex;
+  justify-content: end;
+}
+.section-5 .contact {
+  font-size: 115px;
+  font-family: rocGrotesk;
+  font-weight: regular;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px 0px;
+  margin: 0px;
+  line-height: 95px;
+}
+.section-5 .circulo {
+  background: linear-gradient(#1D1D1B, #1D1D1B) padding-box, linear-gradient(94deg, rgb(251, 203, 154) 0%, rgb(239, 127, 60) 45%, rgb(229, 0, 126) 87%) border-box;
+  width: 251px;
+  height: 179.3px;
+  border-radius: 72px;
+  border: 1px solid transparent;
+  align-items: center;
+  margin: 8px 0px;
+}
+.section-5 .circulo p {
+  font-family: rocGrotesk;
+  font-weight: medium;
+  text-align: end;
+  color: white;
+  font-size: 20px;
+}
+
+.section-6 {
+  color: white;
+  font-family: rocGrotesk;
+  font-weight: regular;
+  font-size: 13px;
+  margin-bottom: 49px;
+}
+.section-6 p {
+  margin: 0px;
+}
+.section-6 .end-text {
+  margin-right: 157px;
+}
+.section-6 .circulo {
+  margin-top: 104px;
+  margin-bottom: 60px;
+  width: 101px;
+  height: 101px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  align-items: center;
+}
+.section-6 .circulo img {
+  width: 35px;
+  height: 43px;
+}
+.section-6 .hr {
+  background-color: white !important;
+  width: 23px;
+  height: 1px;
+  color: white !important;
+  border: none;
+  margin: 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+footer {
+  padding-left: 47px;
+  padding-right: 47px;
+  overflow: hidden;
+}
+footer img {
+  height: 224px;
 }
 
 /*# sourceMappingURL=style.css.map */
