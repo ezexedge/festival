@@ -1,0 +1,151 @@
+
+@use '../custom' as *;
+
+.section-4{
+    position: relative;
+    margin-bottom: 300px;
+    .text-head{
+        color: white;
+        .title{
+            font-family: rocGrotesk;
+            font-weight: regular;
+            font-size: 43px;
+            line-height: 40px;
+        }
+        .subtitle{
+            font-family: rocGrotesk;
+            font-weight: medium;
+            font-size: 22px;
+        }
+    }
+    .text{
+        color: white;
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    font-size: 20px;
+    font-family: rocGrotesk;
+        font-weight: regular;
+
+    }
+    .circulo{
+        background: linear-gradient($black,$black) padding-box,
+        linear-gradient(94deg, rgba(251,203,154,1) 0%, rgba(239,127,60,1) 45%, rgba(229,0,126,1) 87%) border-box;
+    width: 200px;
+    height: 144px;
+    border-radius: 72px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    .circulo-hijo{
+        background: linear-gradient($black,$black) padding-box,
+        linear-gradient(264deg, rgba(251,203,154,1) 0%, rgba(239,127,60,1) 45%, rgba(229,0,126,1) 87%) border-box;
+    width: 85px;
+    height: 85px;
+    border-radius: 72px;
+    border: 1px solid transparent;
+    margin-left: 19px;
+    
+    }
+    }
+    
+    
+   
+}
+.section-5{
+    .email{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+      .circulo{
+
+        display: flex;
+        justify-content: end;
+
+      }
+    }
+    .contact{
+        font-size: 115px;
+        font-family: rocGrotesk;
+        font-weight: regular;
+        text-transform: uppercase;
+        color: white;
+        padding: 20px 0px;
+        margin: 0px;
+        line-height: 95px;
+    }
+    .circulo{
+        background: linear-gradient($black,$black) padding-box,
+        linear-gradient(94deg, rgba(251,203,154,1) 0%, rgba(239,127,60,1) 45%, rgba(229,0,126,1) 87%) border-box;
+    width: 251px;
+    height: 179.3px;
+    border-radius: 72px;
+    border: 1px solid transparent;
+    align-items: center;
+    margin: 8px 0px;
+
+    p{
+        font-family: rocGrotesk;
+        font-weight: medium;
+        text-align: end;
+        color: white;
+        font-size: 20px;
+        
+
+    }
+  
+    }
+}
+
+.section-6{
+    color: white;
+    font-family: rocGrotesk;
+    font-weight: regular;
+    font-size: 13px;
+    margin-bottom: 49px;
+    p{
+        margin: 0px;
+        
+    }
+    .end-text{
+        margin-right: 157px;
+    }
+    .circulo{
+        margin-top: 104px;
+        margin-bottom: 60px;
+        width: 101px;
+        height: 101px;
+        background-color: #FFFFFF;
+        border-radius: 100%;
+        align-items: center;
+        img{
+            width: 35px;
+            height: 43px;
+
+        }
+    }
+    .hr{
+        background-color: white!important;
+        width: 23px;
+        height: 1px;
+           color:white !important;
+           border: none;
+           margin: 0px;
+           margin-top: 12px;
+           margin-bottom: 12px;
+
+
+    }
+}
+
+footer{
+    padding-left: 47px;
+    padding-right: 47px;
+    overflow: hidden;
+    img{
+        height: 224px;
+
+    }
+}

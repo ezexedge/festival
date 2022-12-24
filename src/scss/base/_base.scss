@@ -1,7 +1,16 @@
 @use '../custom' as *;
 
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 body{
     background-color: $black;
     width: 100%;
+    box-sizing: border-box;
+
 
 }
+

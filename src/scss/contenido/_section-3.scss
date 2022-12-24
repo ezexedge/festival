@@ -1,0 +1,27 @@
+
+
+.section-3{
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-left: 47px;
+    padding-right: 47px;
+    margin-bottom: 400px;
+
+    
+    .img1{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .img2{
+        width: 1190px;
+        height: 398px;
+        right: 0;
+        left: 0;
+        bottom: -230px;
+        position: absolute;
+
+    }
+}

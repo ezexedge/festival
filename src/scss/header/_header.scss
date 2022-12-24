@@ -1,10 +1,6 @@
 @use '../custom' as *;
 
-@font-face {
-    font-family:rocGrotesk ;
-    src: url(/Fonts/RocGrotesk-Bold.otf);
-    font-weight: bold;
-  }
+
 header{
     position: relative;
     .banner{
@@ -13,10 +9,13 @@ header{
         background-image: url("/img/header.png");
         background-repeat:no-repeat;
         background-size:100%;
-        margin-right: 40px;
-        margin-left: 40px;
+        margin-right: 46px;
+        margin-left: 46px;
 
         nav {
+            font-family:rocGrotesk ;
+            font-weight: bold;
+
             .nav-link{
                 color: $white!important;
                 font-size: 20px!important;
@@ -31,7 +30,7 @@ header{
     .text-content{
         color: $white;
         position: absolute;
-        transform: translate(0.5%, 50%);
+        transform: translate(0, 50%);
 
         h1{
             font-size: 130px;

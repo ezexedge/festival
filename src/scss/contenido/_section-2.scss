@@ -1,0 +1,26 @@
+
+
+.section-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-left: 47px;
+    padding-right: 47px;
+    margin-bottom: 350px;
+    
+
+    
+      .img1{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .img2{
+        width: 857px;
+        height: 629px;
+        right: 0;
+        bottom: -330px;
+        position: absolute;
+
+    }
+}

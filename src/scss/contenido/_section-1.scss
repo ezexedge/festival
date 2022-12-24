@@ -1,18 +1,16 @@
 @use '../custom' as *;
 
-@font-face {
-    font-family:rocGrotesk ;
-    src: url(/Fonts/RocGrotesk-Regular.otf);
-    font-weight: regular;
-  }
+
 .section-1{
     color: $white;
     margin-top: 7rem;
+    margin-bottom: 300px;
+    position: relative;
     .text-section-1{
         width: 80%;
         height: 507px;
         position: absolute;
-        transform: translate(2%, -60%);
+        bottom: -200px;
 
     }
     .content-text-head{
@@ -29,12 +27,22 @@
             width: 428px;
             height: 409px;
             position: absolute;
-            background-image: url("/img/box.svg");
-            background-repeat: no-repeat;
-            background-size: 100%;
+            background: linear-gradient(94deg, rgba(251,203,154,1) 0%, rgba(239,127,60,1) 45%, rgba(229,0,126,1) 87%);
+            font-size: 1.2em;
+            
             top: 78px;
-            transform: translate(-150%, 2%);
 
+            transform: translate(-150%, 2%);
+            display: flex;
+            justify-content: start;
+            p{
+                font-size: 20px;
+                margin-top: 43px;
+                margin-left: 43px;
+                line-height: 20px;
+                font-family: rocGrotesk;
+                font-weight: medium;
+            }
         }
     }
     
