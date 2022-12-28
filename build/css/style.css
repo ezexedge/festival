@@ -10797,9 +10797,10 @@ header .banner {
     margin-left: 0px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   header .banner {
     height: 600px;
+    background-size: 138%;
   }
 }
 header .banner nav {
