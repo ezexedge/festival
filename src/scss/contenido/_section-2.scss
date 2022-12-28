@@ -8,7 +8,11 @@
     padding-right: 47px;
     margin-bottom: 350px;
     
+    @media (max-width: 730px) { 
+        padding-left: 0px;
+        padding-right: 0px;
 
+      }
     
       .img1{
         width: 100%;
@@ -16,11 +20,23 @@
         position: relative;
     }
     .img2{
+        @media (max-width: 730px) { 
+            width: 80%;
+
+    
+          }
+        
         width: 857px;
         height: 629px;
         right: 0;
         bottom: -330px;
         position: absolute;
+    
+        @media (max-width: 730px) { 
+            bottom: -350px;
+
+    
+          }
 
     }
 }

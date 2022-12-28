@@ -3,6 +3,7 @@
 
 header{
     position: relative;
+
     .banner{
         height: 100vh;
         font-family: rocGrotesk;
@@ -11,26 +12,47 @@ header{
         background-size:100%;
         margin-right: 46px;
         margin-left: 46px;
+        @media (max-width: 730px) { 
+          margin-right: 0px;
+        margin-left: 0px;
+        }
+        @media (max-width: 550px) { 
+            height: 600px;
 
+          }
+      
         nav {
             font-family:rocGrotesk ;
             font-weight: bold;
+            
+            @media (max-width: 730px) { 
+                background-color: #212529;
+                padding: 20px;
+                text-align: center;
 
+              }
             .nav-link{
                 color: $white!important;
                 font-size: 20px!important;
 
             }
             img{
-                width: 134px;
+                width: 150px;
+
+                @media (max-width: 730px) { 
+                    width: 20vw;
+                    margin-top: 0;
+
+                  }
             }
+            
         }
        
     }
     .text-content{
         color: $white;
         position: absolute;
-        transform: translate(0, 50%);
+        top: 32%;
 
         h1{
             font-size: 130px;

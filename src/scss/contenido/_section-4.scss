@@ -4,6 +4,10 @@
 .section-4{
     position: relative;
     margin-bottom: 300px;
+    @media (max-width: 730px) { 
+        margin-bottom: 200px!important;
+
+      }
     .text-head{
         color: white;
         .title{
@@ -57,8 +61,13 @@
 .section-5{
     .email{
         display: flex;
-        flex-direction: column;
         align-items: end;
+        @media (max-width: 625px) { 
+           flex-direction: column!important;
+            align-items: center!important;
+          
+           //   width: 100% !important;
+          }
       .circulo{
 
         display: flex;
@@ -67,14 +76,14 @@
       }
     }
     .contact{
-        font-size: 115px;
+        font-size: 9vw;
         font-family: rocGrotesk;
         font-weight: regular;
         text-transform: uppercase;
         color: white;
         padding: 20px 0px;
         margin: 0px;
-        line-height: 95px;
+        line-height: 7.5vw;
     }
     .circulo{
         background: linear-gradient($black,$black) padding-box,
@@ -86,14 +95,36 @@
     align-items: center;
     margin: 8px 0px;
 
+    @media (max-width: 716px) { 
+        width: 200px;
+        height: 150px;
+        margin: 10px;
+     //   width: 100% !important;
+      }
+      @media (max-width: 625px) { 
+        width: 251px;
+        height: 179.3px;
+       
+        //   width: 100% !important;
+       }
+
     p{
         font-family: rocGrotesk;
         font-weight: medium;
         text-align: end;
         color: white;
         font-size: 20px;
-        
+            @media (max-width: 716px) { 
+                font-size: 15px;
 
+     //   width: 100% !important;
+      }
+      @media (max-width: 625px) { 
+     
+        font-size: 20px;
+
+        //   width: 100% !important;
+       }
     }
   
     }
@@ -104,9 +135,27 @@
     font-family: rocGrotesk;
     font-weight: regular;
     font-size: 13px;
-    margin-bottom: 49px;
+    margin-bottom: 80px;
+    .content-circle{
+        @media (max-width: 766px) { 
+            justify-content: center;
+         //   width: 100% !important;
+          }
+    }
+
+    .box-text{
+        @media (max-width: 766px) { 
+            flex-direction: column;
+         //   width: 100% !important;
+          }
+    }
     p{
         margin: 0px;
+        @media (max-width: 766px) { 
+            text-align: center;
+           
+
+        }
         
     }
     .end-text{
@@ -135,15 +184,29 @@
            margin: 0px;
            margin-top: 12px;
            margin-bottom: 12px;
+           @media (max-width: 766px) { 
+            margin: 12px auto;
+          }
 
 
     }
+    .text-repeat{
+        
+            @media (max-width: 766px) { 
+               display: none;
+              }
+            }
 }
 
 footer{
     padding-left: 47px;
     padding-right: 47px;
     overflow: hidden;
+    @media (max-width: 730px) { 
+        padding-left: 0px;
+        padding-right: 0px;
+
+      }
     img{
         height: 224px;
 
