@@ -135,7 +135,9 @@
     font-family: rocGrotesk;
     font-weight: regular;
     font-size: 13px;
-    margin-bottom: 80px;
+    .container-fluid{
+        margin-bottom: 80px;
+    }
     .content-circle{
         @media (max-width: 766px) { 
             justify-content: center;
@@ -199,9 +201,9 @@
 }
 
 footer{
+   
     padding-left: 47px;
     padding-right: 47px;
-    overflow: hidden;
     @media (max-width: 730px) { 
         padding-left: 0px;
         padding-right: 0px;

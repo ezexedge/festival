@@ -11121,6 +11121,8 @@ img {
   font-family: rocGrotesk;
   font-weight: regular;
   font-size: 13px;
+}
+.section-6 .container-fluid {
   margin-bottom: 80px;
 }
 @media (max-width: 766px) {
@@ -11181,7 +11183,6 @@ img {
 footer {
   padding-left: 47px;
   padding-right: 47px;
-  overflow: hidden;
 }
 @media (max-width: 730px) {
   footer {
