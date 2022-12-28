@@ -10799,7 +10799,7 @@ header .banner {
 }
 @media (max-width: 600px) {
   header .banner {
-    height: 600px;
+    height: 500px;
     background-size: 138%;
   }
 }
