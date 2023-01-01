@@ -13,13 +13,13 @@
         .title{
             font-family: rocGrotesk;
             font-weight: regular;
-            font-size: 43px;
+            font-size: 2em;
             line-height: 40px;
         }
         .subtitle{
             font-family: rocGrotesk;
             font-weight: medium;
-            font-size: 22px;
+            font-size: 1.2em;
         }
     }
     .text{
@@ -31,6 +31,23 @@
     font-size: 20px;
     font-family: rocGrotesk;
         font-weight: regular;
+        @media (max-width: 628px) { 
+            font-size: 10px;
+
+    
+          }
+          @media (max-width: 479px) { 
+            font-size: 10px;
+            transform: translate(0%, -50%);
+
+    
+          }
+          @media (max-width: 347px) { 
+            font-size: 9.5px;
+            transform: translate(10%, -50%);
+
+    
+          }
 
     }
     .circulo{
@@ -43,6 +60,33 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    @media (max-width: 653px) { 
+        width: 190px;
+        height: 144px;
+
+      }
+      @media (max-width: 544px) { 
+        width: 170px;
+        height: 130px;
+
+      }
+      @media (max-width: 494px) { 
+        width: 160px;
+        height: 110px;
+
+      }
+
+      @media (max-width: 494px) { 
+        width: 150px;
+        height: 100px;
+
+      }
+      @media (max-width: 338px) { 
+        width: 130px;
+        height: 90px;
+
+      }
+
     .circulo-hijo{
         background: linear-gradient($black,$black) padding-box,
         linear-gradient(264deg, rgba(251,203,154,1) 0%, rgba(239,127,60,1) 45%, rgba(229,0,126,1) 87%) border-box;
@@ -51,7 +95,38 @@
     border-radius: 72px;
     border: 1px solid transparent;
     margin-left: 19px;
+    @media (max-width: 653px) { 
+        width: 75px;
+        height: 75px;
+
+      }
+      @media (max-width: 568px) { 
+        width: 60px;
+        height: 60px;
+
+      }
+      @media (max-width: 383px) { 
+        width: 50px;
+        height: 50px;
+
+      }
+      @media (max-width: 320px) { 
+        width: 45px;
+        height: 45px;
+
+      }
+
+      img{
+        @media (max-width: 410px) { 
+            width: 6vw!important;
     
+          }
+          @media (max-width: 566px) { 
+            width: 4.7vw!important;
+    
+          }
+      }
+   
     }
     }
     
@@ -84,6 +159,13 @@
         padding: 20px 0px;
         margin: 0px;
         line-height: 7.5vw;
+        @media (max-width: 630px) { 
+            font-size: 10vw;
+            line-height: 7.9vw;
+
+
+            //   width: 100% !important;
+           }
     }
     .circulo{
         background: linear-gradient($black,$black) padding-box,
@@ -94,37 +176,73 @@
     border: 1px solid transparent;
     align-items: center;
     margin: 8px 0px;
-
-    @media (max-width: 716px) { 
-        width: 200px;
-        height: 150px;
-        margin: 10px;
+    @media (max-width: 959px) { 
+        width: 230px;
+        height: 170px;
      //   width: 100% !important;
       }
-      @media (max-width: 625px) { 
-        width: 251px;
-        height: 179.3px;
-       
+  
+
+     
+       @media (max-width: 771px) { 
+        width: 200px;
+        height: 150px;
+        margin: 2px 0px;
+
         //   width: 100% !important;
        }
+       @media (max-width:  493px) { 
+        width: 160px;
+        height: 120px;
+        margin: 2px 0px;
 
+        //   width: 100% !important;
+       }
+     
+       @media (max-width:  390px) { 
+        width: 140px;
+        height: 100px;
+        margin: 2px 0px;
+
+        //   width: 100% !important;
+       }
+       @media (max-width:  341px) { 
+        width: 120px;
+        height: 90px;
+        margin: 2px 0px;
+
+        //   width: 100% !important;
+       }
     p{
         font-family: rocGrotesk;
         font-weight: medium;
         text-align: end;
         color: white;
         font-size: 20px;
-            @media (max-width: 716px) { 
+            @media (max-width: 767px) { 
                 font-size: 15px;
 
      //   width: 100% !important;
       }
       @media (max-width: 625px) { 
      
-        font-size: 20px;
+        font-size: 15px;
 
         //   width: 100% !important;
        }
+       @media (max-width: 570px) { 
+     
+        font-size: 12px;
+
+        //   width: 100% !important;
+       }
+       @media (max-width: 453px) { 
+     
+        font-size: 10px;
+
+        //   width: 100% !important;
+       }
+    
     }
   
     }

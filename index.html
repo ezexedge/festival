@@ -99,12 +99,12 @@ a better future.
       <div class="container-xl ">
           <div class="row ">
             <div class="text-head">
-            <p class="title">By mixing them<br>we create<br>awesome stuff</p>
+            <p class="title">By mixing them<br>we create<br>awesome stuff.</p>
              <p class="subtitle">Here´s a shortlist of some things we do on our daily basis:</p>
             </div>
          <p>
    
-          <div class="card col-xl-4 col-md-4 col-sm-6 col-xs-2 ">
+          <div class="card col-xl-4 col-md-4 col-sm-6 col-6  ">
             <p class="text">Social media
               management</p>
             <div class="circulo">
@@ -115,7 +115,7 @@ a better future.
             </div>
           
         </div>
-        <div class="card col-xl-4 col-md-4 col-sm-6">
+        <div class="card col-xl-4 col-md-4 col-sm-6 col-6">
           <p class="text">Training in media
             for the athlete and
             his environment</p>
@@ -126,7 +126,7 @@ a better future.
           </div>
         
       </div>
-      <div class="card col-xl-4 col-md-4 col-sm-6">
+      <div class="card col-xl-4 col-md-4 col-sm-6 col-6"">
         <p class="text">Crisis
       management</p>
         <div class="circulo">
@@ -136,7 +136,7 @@ a better future.
         </div>
       
     </div>
-    <div class="card col-xl-4 col-md-4 col-sm-6">
+    <div class="card col-xl-4 col-md-4 col-sm-6 col-6"">
       <p class="text">Creation
         <br>
         of audiovisual
@@ -149,7 +149,7 @@ a better future.
       </div>
     
   </div>
-  <div class="card col-xl-4 col-md-4 col-sm-6" >
+  <div class="card col-xl-4 col-md-4 col-sm-6 col-6"" >
     <p class="text">Personal
       <br>
       brand</p>
@@ -160,7 +160,7 @@ a better future.
     </div>
   
   </div>
-  <div class="card col-xl-4 col-md-4 col-sm-6">
+  <div class="card col-xl-4 col-md-4 col-sm-6 col-6"">
   <p class="text">Copywriting</p>
   <div class="circulo">
     <div class="circulo-hijo d-flex justify-content-center align-items-center">
@@ -169,7 +169,7 @@ a better future.
   </div>
   
   </div>
-  <div class="card col-xl-4 col-md-4 col-sm-6">
+  <div class="card col-xl-4 col-md-4 col-sm-6 col-6"">
     <p class="text">Advice
       <br>
       on social media</p>
@@ -180,7 +180,7 @@ a better future.
     </div>
   
   </div>
-  <div class="card col-xl-4 col-md-4 col-sm-6">
+  <div class="card col-xl-4 col-md-4 col-sm-6 col-6"">
   <p class="text">Sports
     sponsorship</p>
   <div class="circulo">
@@ -203,7 +203,7 @@ a better future.
    <section id="contact" class="section-5 ">
     <div class="container-fluid ">
       <div class="row ">
-      <div class="col-md-4 col-xl-3 col-sm-12  email ml-5 d-flex flex-md-column">
+      <div class="col-xl-3 col-5  email ml-5 d-flex flex-column">
         <div class="circulo d-flex justify-content-end ">
           <p class="text-start m-3">
           hello
@@ -238,7 +238,7 @@ a better future.
           </p>
         </div>
       </div>
-      <div class="col-xl-9 col-md-8  contact"">
+      <div class="col-xl-9  col-7 contact"">
   
         <p class="p-0 m-0">Office</p>
        
@@ -286,7 +286,11 @@ a better future.
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
   <script>
-    gsap.registerPlugin(ScrollTrigger);
+  var	wideScreen = window.matchMedia("(min-width: 800px)");
+  var	narrowScreen = window.matchMedia("(max-width: 799px)");
+        
+if(window.screen.width > 470){
+  gsap.registerPlugin(ScrollTrigger);
     let tl = gsap.timeline();
 
 const sections = document.querySelectorAll('section');
@@ -295,7 +299,7 @@ const headers = document.querySelectorAll('header');
 console.log("aaa",sections)
 
 sections.forEach(section => {
-  gsap.fromTo(section.children, {y: '+=300', opacity: 0}, {y: 0, opacity: 1, stagger: 0.3, duration: 1.2, ease: 'easeInOut', scrollTrigger: {
+  gsap.fromTo(section.children, {y: '+=100', opacity: 0}, {y: 0, opacity: 1, stagger: 0.3, duration: 1.3, ease: 'easeInOut', scrollTrigger: {
   trigger: section,
   start: 'start 15%',
   
@@ -309,6 +313,11 @@ gsap.from('.img2',{
   
   
 })
+}
+    
+
+        
+
 
   </script>
 </body>

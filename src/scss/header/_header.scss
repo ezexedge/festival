@@ -13,12 +13,21 @@ header{
         margin-right: 46px;
         margin-left: 46px;
         @media (max-width: 730px) { 
+            height: 80vh;
+
+          }
+        @media (max-width: 730px) { 
           margin-right: 0px;
         margin-left: 0px;
         }
         @media (max-width: 600px) { 
             height: 500px;
             background-size:138%;
+
+          }
+          @media (max-width: 400px) { 
+            height: 70vh;
+            
 
           }
       
@@ -38,7 +47,7 @@ header{
 
             }
             img{
-                width: 150px;
+                width: 130px;
 
                 @media (max-width: 730px) { 
                     width: 20vw;
