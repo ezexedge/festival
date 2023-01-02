@@ -10783,7 +10783,7 @@ header {
   position: relative;
 }
 header .banner {
-  height: 642px;
+  height: 100vh;
   font-family: rocGrotesk;
   background-image: url("/img/header.png");
   background-repeat: no-repeat;
