@@ -10783,7 +10783,7 @@ header {
   position: relative;
 }
 header .banner {
-  height: 100vh;
+  height: 642px;
   font-family: rocGrotesk;
   background-image: url("/img/header.png");
   background-repeat: no-repeat;
@@ -10791,33 +10791,59 @@ header .banner {
   margin-right: 46px;
   margin-left: 46px;
 }
-@media (max-width: 730px) {
+@media (max-width: 990px) {
   header .banner {
-    height: 80vh;
+    height: 550px;
+  }
+}
+@media (max-width: 850px) {
+  header .banner {
+    height: 500px;
   }
 }
 @media (max-width: 730px) {
   header .banner {
     margin-right: 0px;
     margin-left: 0px;
+    height: 500px;
   }
 }
 @media (max-width: 600px) {
   header .banner {
-    height: 500px;
-    background-size: 138%;
+    height: 450px;
+    background-size: 120%;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 553px) {
   header .banner {
-    height: 70vh;
+    height: 400px;
+  }
+}
+@media (max-width: 417px) {
+  header .banner {
+    height: 350px;
+  }
+}
+@media (max-width: 473px) {
+  header .banner {
+    height: 330px;
+  }
+}
+@media (max-width: 389px) {
+  header .banner {
+    height: 310px;
+  }
+}
+@media (max-width: 369px) {
+  header .banner {
+    height: 280px;
   }
 }
 header .banner nav {
   font-family: rocGrotesk;
   font-weight: bold;
 }
-@media (max-width: 730px) {
+@media (max-width: 769px) {
   header .banner nav {
     background-color: #212529;
     padding: 20px;
@@ -10840,7 +10866,22 @@ header .banner nav img {
 header .text-content {
   color: #FFFFFF;
   position: absolute;
-  top: 32%;
+  top: 35%;
+}
+@media (max-width: 850px) {
+  header .text-content {
+    top: 42%;
+  }
+}
+@media (max-width: 450px) {
+  header .text-content {
+    top: 38%;
+  }
+}
+@media (max-width: 370px) {
+  header .text-content {
+    top: 45%;
+  }
 }
 header .text-content h1 {
   font-size: 130px;
@@ -10868,14 +10909,30 @@ img {
 
 .section-1 {
   color: #FFFFFF;
-  margin-top: 7rem;
+  margin-top: 3.5rem;
   margin-bottom: 300px;
   position: relative;
+}
+@media (max-width: 990px) {
+  .section-1 {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .section-1 {
+    margin-top: 0rem;
+  }
 }
 @media (max-width: 730px) {
   .section-1 {
     margin-top: 0rem;
     margin-bottom: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .section-1 {
+    margin-top: 0rem;
+    margin-bottom: 100px;
   }
 }
 .section-1 .text-section-1 {
@@ -10890,7 +10947,6 @@ img {
   font-weight: regular;
   margin-bottom: 7rem;
   padding-left: 150px;
-  width: 50%;
 }
 @media (max-width: 730px) {
   .section-1 .content-text-head {
@@ -10898,6 +10954,12 @@ img {
     width: auto;
     padding: 5px;
     margin-bottom: 2rem;
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 500px) {
+  .section-1 .content-text-head {
+    font-size: 0.9em;
   }
 }
 .section-1 .content-main {
@@ -10953,6 +11015,16 @@ img {
   padding-right: 47px;
   margin-bottom: 350px;
 }
+@media (max-width: 700px) {
+  .section-2 {
+    margin-bottom: 230px;
+  }
+}
+@media (max-width: 458px) {
+  .section-2 {
+    margin-bottom: 200px;
+  }
+}
 @media (max-width: 730px) {
   .section-2 {
     padding-left: 0px;
@@ -10997,6 +11069,13 @@ img {
     margin-bottom: 200px;
   }
 }
+@media (max-width: 480px) {
+  .section-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 150px;
+  }
+}
 .section-3 .img1 {
   width: 100%;
   height: auto;
@@ -11018,6 +11097,11 @@ img {
 @media (max-width: 730px) {
   .section-4 {
     margin-bottom: 200px !important;
+  }
+}
+@media (max-width: 480px) {
+  .section-4 {
+    margin-bottom: 100px !important;
   }
 }
 .section-4 .text-head {
@@ -11284,9 +11368,20 @@ img {
   border-radius: 100%;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .section-6 .circulo {
+    margin-top: 34px;
+  }
+}
 .section-6 .circulo img {
   width: 35px;
   height: 43px;
+}
+@media (max-width: 500px) {
+  .section-6 .circulo img {
+    width: 25px;
+    height: 33px;
+  }
 }
 .section-6 .hr {
   background-color: white !important;

@@ -1,0 +1,116 @@
+@use '../custom' as *;
+
+.section-5{
+    .email{
+        display: flex;
+        align-items: end;
+        @media (max-width: 625px) { 
+           flex-direction: column!important;
+            align-items: center!important;
+          
+           //   width: 100% !important;
+          }
+      .circulo{
+
+        display: flex;
+        justify-content: end;
+
+      }
+    }
+    .contact{
+        font-size: 9vw;
+        font-family: rocGrotesk;
+        font-weight: regular;
+        text-transform: uppercase;
+        color: white;
+        padding: 20px 0px;
+        margin: 0px;
+        line-height: 7.5vw;
+        @media (max-width: 630px) { 
+            font-size: 10vw;
+            line-height: 7.9vw;
+
+
+            //   width: 100% !important;
+           }
+    }
+    .circulo{
+        background: linear-gradient($black,$black) padding-box,
+        linear-gradient(94deg, rgba(251,203,154,1) 0%, rgba(239,127,60,1) 45%, rgba(229,0,126,1) 87%) border-box;
+    width: 251px;
+    height: 179.3px;
+    border-radius: 72px;
+    border: 1px solid transparent;
+    align-items: center;
+    margin: 8px 0px;
+    @media (max-width: 959px) { 
+        width: 230px;
+        height: 170px;
+     //   width: 100% !important;
+      }
+  
+
+     
+       @media (max-width: 771px) { 
+        width: 200px;
+        height: 150px;
+        margin: 2px 0px;
+
+        //   width: 100% !important;
+       }
+       @media (max-width:  493px) { 
+        width: 160px;
+        height: 120px;
+        margin: 2px 0px;
+
+        //   width: 100% !important;
+       }
+     
+       @media (max-width:  390px) { 
+        width: 140px;
+        height: 100px;
+        margin: 2px 0px;
+
+        //   width: 100% !important;
+       }
+       @media (max-width:  341px) { 
+        width: 120px;
+        height: 90px;
+        margin: 2px 0px;
+
+        //   width: 100% !important;
+       }
+    p{
+        font-family: rocGrotesk;
+        font-weight: medium;
+        text-align: end;
+        color: white;
+        font-size: 20px;
+            @media (max-width: 767px) { 
+                font-size: 15px;
+
+     //   width: 100% !important;
+      }
+      @media (max-width: 625px) { 
+     
+        font-size: 15px;
+
+        //   width: 100% !important;
+       }
+       @media (max-width: 570px) { 
+     
+        font-size: 12px;
+
+        //   width: 100% !important;
+       }
+       @media (max-width: 453px) { 
+     
+        font-size: 10px;
+
+        //   width: 100% !important;
+       }
+    
+    }
+  
+    }
+}

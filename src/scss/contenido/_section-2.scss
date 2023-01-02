@@ -7,7 +7,16 @@
     padding-left: 47px;
     padding-right: 47px;
     margin-bottom: 350px;
-    
+    @media (max-width: 700px) { 
+      margin-bottom: 230px;
+
+
+    }   
+    @media (max-width: 458px) { 
+      margin-bottom: 200px;
+
+
+    }   
     @media (max-width: 730px) { 
         padding-left: 0px;
         padding-right: 0px;

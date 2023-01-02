@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+footer{
+   
+    padding-left: 47px;
+    padding-right: 47px;
+    @media (max-width: 730px) { 
+        padding-left: 0px;
+        padding-right: 0px;
+
+      }
+    img{
+        height: 224px;
+    
+    }
+}

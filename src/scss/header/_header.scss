@@ -5,29 +5,57 @@ header{
     position: relative;
 
     .banner{
-        height: 100vh;
+        height: 642px;
+      
         font-family: rocGrotesk;
         background-image: url("/img/header.png");
         background-repeat:no-repeat;
         background-size:100%;
         margin-right: 46px;
         margin-left: 46px;
-        @media (max-width: 730px) { 
-            height: 80vh;
+        @media (max-width: 990px) { 
+          height: 550px;
 
-          }
+        }   
+        @media (max-width: 850px) { 
+          height: 500px;
+
+        }   
         @media (max-width: 730px) { 
           margin-right: 0px;
         margin-left: 0px;
+        height: 500px;
+
         }
         @media (max-width: 600px) { 
-            height: 500px;
-            background-size:138%;
+            height: 450px;
+            background-size:120%;
+
 
           }
-          @media (max-width: 400px) { 
-            height: 70vh;
-            
+          @media (max-width: 553px) { 
+            height: 400px;
+
+
+          }
+          @media (max-width: 417px) { 
+            height: 350px;
+
+
+          }
+          @media (max-width: 473px) { 
+            height: 330px;
+
+
+          }
+          @media (max-width: 389px) { 
+            height: 310px;
+
+
+          }
+          @media (max-width: 369px) { 
+            height: 280px;
+
 
           }
       
@@ -35,7 +63,7 @@ header{
             font-family:rocGrotesk ;
             font-weight: bold;
             
-            @media (max-width: 730px) { 
+            @media (max-width: 769px) { 
                 background-color: #212529;
                 padding: 20px;
                 text-align: center;
@@ -62,8 +90,19 @@ header{
     .text-content{
         color: $white;
         position: absolute;
-        top: 32%;
+        top: 35%;
+        @media (max-width: 850px) { 
+          top: 42%;
 
+        }  
+        @media (max-width: 450px) { 
+          top: 38%;
+
+        }  
+        @media (max-width: 370px) { 
+          top: 45%;
+
+        }  
         h1{
             font-size: 130px;
 

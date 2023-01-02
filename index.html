@@ -57,7 +57,7 @@
         <div class="content-text-head ">
         <p class="text-break">With more than 10 years of experience<br>
             in strategic marketing related to brands<br>
-            and sports.</p>
+            and sports.<br></p>
         </div>
         <div class="container-xl content-main d-flex justify-content-end">
             <div class="box">
@@ -285,40 +285,6 @@ a better future.
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
-  <script>
-  var	wideScreen = window.matchMedia("(min-width: 800px)");
-  var	narrowScreen = window.matchMedia("(max-width: 799px)");
-        
-if(window.screen.width > 470){
-  gsap.registerPlugin(ScrollTrigger);
-    let tl = gsap.timeline();
-
-const sections = document.querySelectorAll('section');
-const headers = document.querySelectorAll('header');
-
-console.log("aaa",sections)
-
-sections.forEach(section => {
-  gsap.fromTo(section.children, {y: '+=100', opacity: 0}, {y: 0, opacity: 1, stagger: 0.3, duration: 1.3, ease: 'easeInOut', scrollTrigger: {
-  trigger: section,
-  start: 'start 15%',
-  
-  //markers:true,
-}})
-});
-gsap.from('.img2',{
-  duration:.6,
-  opacity:0,
-  y:200,
-  
-  
-})
-}
-    
-
-        
-
-
-  </script>
+<script src="/js/index.js"></script>
 </body>
 </html>
