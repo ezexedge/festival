@@ -4,11 +4,18 @@
     position: relative;
     display: flex;
     justify-content: center;
-    padding-left: 47px;
-    padding-right: 47px;
     margin-bottom: 350px;
+    background-image: url("../../../img//section-2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+    padding: 320px;
+    margin: 0px 47px;
+    margin-bottom: 400px;
     @media (max-width: 700px) { 
       margin-bottom: 230px;
+      padding: 200px;
 
 
     }   
@@ -20,6 +27,9 @@
     @media (max-width: 730px) { 
         padding-left: 0px;
         padding-right: 0px;
+        margin: 0px 0px;
+        padding: 200px;
+        margin-bottom: 400px;
 
       }
     
@@ -32,13 +42,14 @@
         @media (max-width: 730px) { 
             width: 80%;
 
-    
+            right: 0px;
+
           }
         
         width: 857px;
         height: 629px;
-        right: 0;
-        bottom: -330px;
+        right: -47px;
+        bottom: -47vh;
         position: absolute;
     
         @media (max-width: 730px) { 

@@ -8,12 +8,21 @@
     padding-left: 47px;
     padding-right: 47px;
     margin-bottom: 400px;
-
+    background-image: url("../../../img//section-3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+    padding: 320px;
+    margin: 0px 47px;
+    margin-bottom: 400px;
     @media (max-width: 730px) { 
         padding-left: 0px;
         padding-right: 0px;
         margin-bottom: 200px;
-
+      margin-right: 0px;
+      margin-left: 0px;
+      padding: 200px;
 
       }
       @media (max-width: 480px) { 

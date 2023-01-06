@@ -5,26 +5,26 @@ if (window.screen.width > 470) {
   gsap.registerPlugin(ScrollTrigger);
   let tl = gsap.timeline();
 
-  const sections = document.querySelectorAll("section");
+  const sections = document.querySelectorAll(".text-img");
   const headers = document.querySelectorAll("header");
 
   console.log("aaa", sections);
 
   sections.forEach((section) => {
     gsap.fromTo(
-      section.children,
-      { y: "+=100", opacity: 0 },
+      section,
+      { y: "+=250", opacity: 0 },
       {
         y: 0,
         opacity: 1,
         stagger: 0.3,
-        duration: 1.3,
+        duration: 1.5,
         ease: "easeInOut",
         scrollTrigger: {
           trigger: section,
-          start: "start 15%",
+          start: "top bottom",
 
-          //markers:true,
+          //markers: true,
         },
       }
     );
