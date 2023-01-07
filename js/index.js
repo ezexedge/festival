@@ -2,7 +2,7 @@
 var wideScreen = window.matchMedia("(min-width: 800px)");
 var narrowScreen = window.matchMedia("(max-width: 799px)");
 
-if (window.screen.width > 470) {
+
   gsap.registerPlugin(ScrollTrigger);
   let tl = gsap.timeline();
 
@@ -35,7 +35,7 @@ if (window.screen.width > 470) {
     opacity: 0,
     y: 200,
   });
-}
+
 //BOOTSTRAP 5 CLOSE NAVBAR
 $(document).ready(function () {
   $("nav li").click(function () {
