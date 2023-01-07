@@ -11251,13 +11251,24 @@ img {
   }
 }
 
-.section-5 a {
+.section-5 {
   text-decoration: none;
   color: white;
 }
 .section-5 .email {
   display: flex;
   align-items: end;
+}
+.section-5 .email a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 630px) {
+  .section-5 .email a {
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+  }
 }
 @media (max-width: 625px) {
   .section-5 .email {
@@ -11278,6 +11289,10 @@ img {
   padding: 20px 0px;
   margin: 0px;
   line-height: 7.5vw;
+}
+.section-5 .contact a {
+  text-decoration: none;
+  color: white;
 }
 @media (max-width: 630px) {
   .section-5 .contact {
