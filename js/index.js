@@ -1,3 +1,4 @@
+//GSAP
 var wideScreen = window.matchMedia("(min-width: 800px)");
 var narrowScreen = window.matchMedia("(max-width: 799px)");
 
@@ -35,3 +36,18 @@ if (window.screen.width > 470) {
     y: 200,
   });
 }
+//BOOTSTRAP 5 CLOSE NAVBAR
+$(document).ready(function () {
+  $("nav li").click(function () {
+    $("nav li").removeClass("active");
+    $(this).toggleClass("active");
+  });
+});
+
+$(".nav-link").on("click", function () {
+  $(".navbar-collapse").collapse("hide");
+});
+
+//PARALLAX
+var images = document.querySelectorAll(".img-section");
+new simpleParallax(images);

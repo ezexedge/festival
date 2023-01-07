@@ -3,15 +3,33 @@
 
 header{
     position: relative;
+    overflow: hidden;
+    nav{
+      z-index: 1000000000;
+    }
+    
+.img-section{
+height: 83%;
+left:0;
+right:0;
+margin-left: auto;
+margin-right: auto;
+width: 73%;
+position: absolute;
+top: 0;
+  z-index: -100000000;
+  @media (max-width: 730px) { 
+width: 100%;
+    height: auto;
 
+  }
+}
     .banner{
         height: 100vh;
-      
+        overflow: hidden;
+
         font-family: rocGrotesk;
-        background-image: url("/img/header.png");
-        background-repeat:no-repeat;
-      background-attachment: fixed;
-        background-size:100%;
+        
         margin-right: 46px;
         margin-left: 46px;
         @media (max-width: 990px) { 
@@ -59,6 +77,7 @@ header{
 
 
           }
+        
       
         nav {
             font-family:rocGrotesk ;
@@ -66,7 +85,7 @@ header{
             
             @media (max-width: 769px) { 
                 background-color: #212529;
-                padding: 20px;
+                padding: 20px!important;
                 text-align: center;
 
               }
@@ -92,6 +111,7 @@ header{
         color: $white;
         position: absolute;
         top: 35%;
+        left: 0%;
         @media (max-width: 850px) { 
           top: 42%;
 

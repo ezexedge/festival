@@ -1,6 +1,11 @@
 @use '../custom' as *;
 
 .section-5{
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
     .email{
         display: flex;
         align-items: end;
